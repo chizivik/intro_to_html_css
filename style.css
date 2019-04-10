@@ -1,0 +1,23 @@
+.main{
+    display: flex; 
+ 
+}
+#sub {
+    background-color:lightpink;
+    margin-left: 450px;
+}
+li{
+    display: inline;
+ 
+}
+
+#writeup{
+    border-radius: 50px;
+    background-color:brown;
+    padding:15px 15px;
+    width: 25%;
+    height: auto;
+    position:absolute;
+    top: 298px;
+    left: 20px
+}

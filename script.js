@@ -163,7 +163,40 @@
 
 // alert( "Sum=" + calculator.sum() );
 // alert( "Mul=" + calculator.mul() );
- let num = 1.23456;
+//  let num = 1.23456;
 
- alert( Math.floor(num * 100) / 100 );
- alert(num.toFixed(3))
+//  alert( Math.floor(num * 100) / 100 );
+//  alert(num.toFixed(3))
+//  alert("World");
+
+// setTimeout(()=>alert("Hello"));
+// let i = 0;
+
+// let start = Date.now();
+
+// function count() {
+
+//   // do a heavy job
+//   for (let j = 0; j < 1e9; j++) {
+//     i++;
+//   }
+
+//   alert("Done in " + (Date.now() - start) + 'ms');
+// }
+
+// count();
+{/* <div id="progress"></div>
+
+
+  let i = 0;
+
+  function count() {
+    for (let j = 0; j < 1e6; j++) {
+      i++;
+      // put the current i into the <div>
+      // (we'll talk more about innerHTML in the specific chapter, should be obvious here)
+      progress.innerHTML = i;
+    }
+  }
+
+  count(); */}
