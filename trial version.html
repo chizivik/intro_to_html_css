@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>  </title>
+                <style>
+            body{
+                margin:0;
+                    padding:0;
+                
+                }             
+                #main{
+                    background-color: red;
+                    margin: 50px auto;
+                    width: 30%;
+                    padding: 15px 20px 15px 20px;
+                    color: white;
+                    font-family: "Times New Roman";
+                    font-size: 12px;
+                    text-align: center;
+                    height: auto; 
+                    border-radius: 60px;
+                } 
+               
+                #main input{
+                    font-size: 12px;
+                    margin-top:15px;
+                }
+                #main input[type="button"]{
+                    margin-left: 25px;
+                    padding: 10px;
+                }
+                #matric, #password{
+                    padding: 10px;
+                    margin-left: 25px;
+                }
+/* The animation code */
+                @keyframes example {
+                    0%   {background-color: red; }
+                        25%  {background-color: yellow;}
+                            50%  {background-color: blue; }
+                                 75%  {background-color: green;}
+                                    100% {background-color: violet;}
+                }
+                
+/* The element to apply the animation to */
+                body {
+                    
+                    animation-name: example;
+                    animation-duration: 10s;                                
+                    
+                }
+                
+    </style>
+        <script>
+                   var d = new Date();
+                    alert(d);
+                
+                
+                   // this is a test
+                   let str = "Hello World!";
+                    let res = str.toLowerCase();
+                      console.log(res);
+                       function greeting(morning, evening){
+                         console.log (morning+''+evening);
+                    }
+                    function getName(name) {
+                       return name.length;
+                     
+                    console.log(getName("kenechukwu"));  
+                
+        </script>
+     </head>
+    <body>
+                     
+        <h1 style="text-align:center"> Hello World</h1>
+        
+        <h2>its scary to fall from the roof top</h2> 
+        <div id="main">
+            <div id="matric">
+              <p>MATRIC NUMBER </p><input type = "text"><br>
+            </div>
+            <div id="password">
+                <p>PASSWORD</p><input type = "password"></br><br>
+            </div>  
+            <a href="form link.html"><input type = "button"value = LOGIN> </a>
+        
+      </body>
+        </html>
+
